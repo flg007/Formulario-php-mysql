@@ -9,7 +9,7 @@
 <body>
 
     <form methnod="post" >
-        <h2>Hola</h2>titulo
+        <h2>Hola</h2>
         <p>Inicia tu registro</p>
 
         <div class="input-wrapper">
