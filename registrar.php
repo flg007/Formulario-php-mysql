@@ -10,7 +10,7 @@ include("conexion.php");
                 strlen($_POST["phone"]) >= 1 &&
                 strlen($_POST["password"]) >= 1 
 
-                ){
+                ){ 
                     $name = trim($_POST["name"]);
                     $email = trim($_POST["email"]);
                     $direction = trim($_POST["direction"]);
@@ -18,7 +18,7 @@ include("conexion.php");
                     $password = trim($_POST["password"]);
                     $fecha = date("d/m/y");
                     $consulta = "INSERT INTO datos(nombre,email,direccion, telefono, contraseña, fecha)
-                        VALUES("$name", "$email", "$direction" , "$phone", "$password", "$fecha")";
+                        VALUES('$name', '$email', '$direction' , '$phone', '$password', '$fecha')";
                         $resultado = mysqli_connect($conex, $consulta);
                         if ($resultado) {
                             ?>
@@ -28,6 +28,10 @@ include("conexion.php");
                             ?>
                             <h3 class="error">Ocurrio un error</h3>
 
+                            <?php
+                        } else {
+                            ?>
+                                     <h3 class="error" >Llena todos los campos</h3>
                             <?php
                         }
 
