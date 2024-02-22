@@ -25,15 +25,15 @@ include("conexion.php");
                             <h3 class="sucess" >Tu registro se a completado</h3>
                             <?php                       
                         } else {
-                            ?>
+                        ?>
                             <h3 class="error">Ocurrio un error</h3>
 
                             <?php
-                        } else {
+                        } 
+                    } else {
                             ?>
                                      <h3 class="error" >Llena todos los campos</h3>
                             <?php
-                        }
 
 
                 }
