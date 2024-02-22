@@ -23,6 +23,24 @@
 
         </div>
 
+        <div class="input-wrapper">
+            <input type="tet" name="direction" placeholder="Direccion" >
+            <img class="input-icon" src="images/direction.svg" alt="">
+
+        </div>
+
+        <div class="input-wrapper">
+            <input type="tel" name="phone" placeholder="Telefono" >
+            <img class="input-icon" src="images/phone.svg" alt="">
+
+        </div>
+
+        <div class="input-wrapper">
+            <input type="password" name="password" placeholder="Contraseña" >
+            <img class="input-icon" src="images/password.svg" alt="">
+
+        </div>
+
 
     </form>
     
