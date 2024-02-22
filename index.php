@@ -8,7 +8,7 @@
 <body>
 
     <form methnod="post" >
-        <h2>Hola</h2>
+        <h2>Hola</h2>titulo
         <p>Inicia tu registro</p>
 
         <div class="input-wrapper">
@@ -17,7 +17,11 @@
 
         </div>
 
+        <div class="input-wrapper">
+            <input type="email" name="email" placeholder="Email" >
+            <img class="input-icon" src="images/email.svg" alt="">
 
+        </div>
 
 
     </form>
