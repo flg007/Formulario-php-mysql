@@ -22,7 +22,7 @@ include("conexion.php");
                         $resultado = mysqli_query($conex, $consulta);
                         if ($resultado) {
                             ?>
-                            <h3 class="sucess" >Tu registro se a completado</h3>
+                            <h3 class="success" >Tu registro se a completado</h3>
                             <?php                       
                         } else {
                         ?>
