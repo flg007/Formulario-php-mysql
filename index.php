@@ -40,6 +40,8 @@
 
         </div>
 
+        <input class="btn" type="submit" name="register" value="Enviar">
+
 
     </form>
     
