@@ -1,0 +1,23 @@
+este proyecto consta de los siguientes programas
+1/ tener instalado php en su sistema operativo en mi caso lo hice en lixu usando el sgte comando
+sudo apt install php
+
+2/ tener instalado XAMPP en el sistema, yo use la version 7.4.29-1
+use el siguiente comando/   /opt/lampp/lampp version
+
+ mi version de linux ubunbu que use en el proyecto es 22.04.4 LTS
+para saber la version escribi el sgte codigo/ lsb_release -a
+
+Tuve varias complicaciones cuando instle XAMPP
+la 1era fue que no inicio el servidor de mysql
+asi que escribi el sgte codigo en la terminal de linux
+sudo /etc/init.d/apache2 stop
+
+luego abri XAMPP desde la terminal con el sgte codigo
+sudo ./manager-linux-x64run
+
+y le di en el boton STOP ALL y luego START ALL
+
+de esa forma logro iniciar los servicios.
+
+luego los otros inconvenientes que tuve fue el de error de sintaxis en html
