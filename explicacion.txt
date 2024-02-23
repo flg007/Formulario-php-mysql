@@ -22,4 +22,4 @@ de esa forma logro iniciar los servicios.
 
 luego los otros inconvenientes que tuve fue el de error de sintaxis en html
 
-luego explicare los codigos git que mas utilizare
+luego explicare los codigos git que mas utilizare.
