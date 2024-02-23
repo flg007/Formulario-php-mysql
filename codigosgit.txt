@@ -1,0 +1,19 @@
+Los codigos GIT 
+
+1er paso configurar tu usurio y correo
+
+git config --global user.name "flg007"
+git config --global user.email "florentinolutinogonzales@gmail.com"
+
+--para saber si lograste loguearte--
+
+git config --list
+
+---una vez verificado que estas logueado, comprobar los 
+archivos modificados---
+
+git status
+
+--para guardar todos los archivos modificados--
+
+git add
