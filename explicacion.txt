@@ -2,6 +2,17 @@ este proyecto consta de los siguientes programas
 1/ tener instalado php en su sistema operativo en mi caso lo hice en lixu usando el sgte comando
 sudo apt install php
 
+----para instalarlo---
+primero descargarlo de la pagina oficial de xampp
+luego en la terminal dirigirse al directorio donde lo descargaron el archivo
+cd Descargas 
+
+chmod +x xampp-linux-x64-8.2.12-0-installer.run
+
+sudo ./xampp-linux-x64-8.2.12-0-installer.run
+
+y siga las instrucciones de instalación.
+
 2/ tener instalado XAMPP en el sistema, yo use la version 7.4.29-1
 use el siguiente comando/   /opt/lampp/lampp version
 
